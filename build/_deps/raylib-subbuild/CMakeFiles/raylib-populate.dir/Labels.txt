@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule

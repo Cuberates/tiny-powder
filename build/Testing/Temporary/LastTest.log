@@ -1,0 +1,19 @@
+Start testing: Nov 03 15:33 MST
+----------------------------------------------------------
+1/1 Testing: particles
+1/1 Test: particles
+Command: "/Users/cookie/Desktop/PROJECTS/automaton/build/particles_tests"
+Directory: /Users/cookie/Desktop/PROJECTS/automaton/build
+"particles" start time: Nov 03 15:33 MST
+Output:
+----------------------------------------------------------
+All particle tests passed.
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"particles" end time: Nov 03 15:33 MST
+"particles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 15:33 MST

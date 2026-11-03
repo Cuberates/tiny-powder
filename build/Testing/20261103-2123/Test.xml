@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20261103-2123-Experimental"
+	Name="cuberates-2573.local"
+	Generator="ctest-4.4.4"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="15.0.0.15000040"
+	OSName="macOS"
+	Hostname="cuberates-2573.local"
+	OSRelease="26.3"
+	OSVersion="25D125"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M1"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0.000000"
+	>
+	<Testing>
+		<StartDateTime>Nov 03 15:26 MST</StartDateTime>
+		<StartTestTime>1793744808</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 03 15:26 MST</EndDateTime>
+		<EndTestTime>1793744808</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

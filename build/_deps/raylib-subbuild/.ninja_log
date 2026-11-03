@@ -1,0 +1,21 @@
+# ninja log v7
+1	19	1793429666762508134	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	92d7ac7aaab4cc73
+1	19	1793429666762508134	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	92d7ac7aaab4cc73
+19	4350	1793429671094027086	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	dc2c959495617e15
+19	4350	1793429671094027086	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	dc2c959495617e15
+4350	4369	1793429671112932238	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	fc39c43720362345
+4350	4369	1793429671112932238	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	fc39c43720362345
+4369	4456	1793429671196953668	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	61ba378d618f7430
+4369	4456	1793429671196953668	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	61ba378d618f7430
+4463	4485	1793429671229316879	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	440810d49ce23bdf
+4463	4485	1793429671229316879	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	440810d49ce23bdf
+4485	4514	1793429671257884141	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	304179ddddfc6db8
+4485	4514	1793429671257884141	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	304179ddddfc6db8
+4514	4530	1793429671273955814	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	46ad33c1d3f868bd
+4514	4530	1793429671273955814	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	46ad33c1d3f868bd
+4530	4548	1793429671292514066	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	6d871f955ff6b29f
+4530	4548	1793429671292514066	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	6d871f955ff6b29f
+4548	4585	1793429671328624669	CMakeFiles/raylib-populate-complete	288cd06529449ac0
+4548	4585	1793429671328624669	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	288cd06529449ac0
+4548	4585	1793429671328624669	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	288cd06529449ac0
+4548	4585	1793429671328624669	/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	288cd06529449ac0
