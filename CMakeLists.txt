@@ -22,21 +22,14 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 endif()
 
 # Our Project
-
-add_executable(${PROJECT_NAME} automaton.cpp)
+add_executable(${PROJECT_NAME} main.cpp
+  src/Physics.cpp
+  src/World.cpp
+  src/WorldRenderer.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_EXTENSIONS OFF)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
-
-include(CTest)
-if (BUILD_TESTING AND NOT PLATFORM STREQUAL "Web")
-    add_executable(particles_tests tests/ParticlesTest.cpp)
-    target_compile_features(particles_tests PRIVATE cxx_std_23)
-    set_target_properties(particles_tests PROPERTIES CXX_EXTENSIONS OFF)
-    target_link_libraries(particles_tests raylib)
-    add_test(NAME particles COMMAND particles_tests)
-endif()
 
 # Web Configurations
 if (${PLATFORM} STREQUAL "Web")
@@ -46,8 +39,9 @@ endif()
 
 # Checks if OSX and links appropriate frameworks (Only required on MacOS)
 if (APPLE)
-    target_link_libraries(${PROJECT_NAME} "-framework IOKit")
-    target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
-    target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
-    target_link_libraries(${PROJECT_NAME} "-framework QuartzCore")
+  target_link_libraries(${PROJECT_NAME} "-framework IOKit")
+  target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
+  target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
+  target_link_libraries(${PROJECT_NAME} "-framework QuartzCore")
+  
 endif()

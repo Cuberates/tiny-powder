@@ -1,15 +1,27 @@
 [
 {
   "directory": "/Users/cookie/Desktop/PROJECTS/automaton/build",
-  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/automaton.dir/automaton.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/automaton.cpp",
-  "file": "/Users/cookie/Desktop/PROJECTS/automaton/automaton.cpp",
-  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/automaton.dir/automaton.cpp.o"
+  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/automaton.dir/main.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/main.cpp",
+  "file": "/Users/cookie/Desktop/PROJECTS/automaton/main.cpp",
+  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/automaton.dir/main.cpp.o"
 },
 {
   "directory": "/Users/cookie/Desktop/PROJECTS/automaton/build",
-  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/particles_tests.dir/tests/ParticlesTest.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/tests/ParticlesTest.cpp",
-  "file": "/Users/cookie/Desktop/PROJECTS/automaton/tests/ParticlesTest.cpp",
-  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/particles_tests.dir/tests/ParticlesTest.cpp.o"
+  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/automaton.dir/src/Physics.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/src/Physics.cpp",
+  "file": "/Users/cookie/Desktop/PROJECTS/automaton/src/Physics.cpp",
+  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/automaton.dir/src/Physics.cpp.o"
+},
+{
+  "directory": "/Users/cookie/Desktop/PROJECTS/automaton/build",
+  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/automaton.dir/src/World.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/src/World.cpp",
+  "file": "/Users/cookie/Desktop/PROJECTS/automaton/src/World.cpp",
+  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/automaton.dir/src/World.cpp.o"
+},
+{
+  "directory": "/Users/cookie/Desktop/PROJECTS/automaton/build",
+  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -g -std=c++2b -o CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o -c /Users/cookie/Desktop/PROJECTS/automaton/src/WorldRenderer.cpp",
+  "file": "/Users/cookie/Desktop/PROJECTS/automaton/src/WorldRenderer.cpp",
+  "output": "/Users/cookie/Desktop/PROJECTS/automaton/build/CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o"
 },
 {
   "directory": "/Users/cookie/Desktop/PROJECTS/automaton/build",

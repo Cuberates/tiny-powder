@@ -14,15 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-Automaton_BINARY_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton/build
-
-//Value Computed by CMake
-Automaton_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Automaton_SOURCE_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton
-
 //Build the examples.
 BUILD_EXAMPLES:BOOL=OFF
 
@@ -374,6 +365,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of raylib
 FETCHCONTENT_UPDATES_DISCONNECTED_RAYLIB:BOOL=OFF
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/opt/homebrew/bin/git
+
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw
 
@@ -431,7 +425,7 @@ Project_IS_TOP_LEVEL:STATIC=ON
 Project_SOURCE_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton
 
 //Name of the computer/site where compile is being run
-SITE:STRING=cuberates-2573.local
+SITE:STRING=cuberates-2662.local
 
 //Link raylib against system GLFW instead of embedded one
 USE_EXTERNAL_GLFW:STRING=OFF
@@ -447,15 +441,6 @@ automaton_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 automaton_SOURCE_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton
-
-//Value Computed by CMake
-example_BINARY_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton/build
-
-//Value Computed by CMake
-example_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-example_SOURCE_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton
 
 //Value Computed by CMake
 raylib_BINARY_DIR:STATIC=/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib
@@ -490,8 +475,6 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
 CMAKE_COMMAND:INTERNAL=/opt/homebrew/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/opt/homebrew/bin/cpack
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/opt/homebrew/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -682,6 +665,8 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //Build support for Wayland
 GLFW_BUILD_WAYLAND:INTERNAL=OFF
 //Build support for X11
