@@ -95,7 +95,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++2b"
+					"fragment" : "-g -std=c++2b -arch arm64"
 				}
 			],
 			"defines" : 

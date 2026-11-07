@@ -53,7 +53,7 @@ build CMakeFiles/automaton.dir/main.cpp.o: CXX_COMPILER__automaton_unscanned_Deb
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/automaton.dir/main.cpp.o.d
-  FLAGS = -g -std=c++2b
+  FLAGS = -g -std=c++2b -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src
   OBJECT_DIR = CMakeFiles/automaton.dir
   OBJECT_FILE_DIR = CMakeFiles/automaton.dir
@@ -63,7 +63,7 @@ build CMakeFiles/automaton.dir/src/Physics.cpp.o: CXX_COMPILER__automaton_unscan
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/automaton.dir/src/Physics.cpp.o.d
-  FLAGS = -g -std=c++2b
+  FLAGS = -g -std=c++2b -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src
   OBJECT_DIR = CMakeFiles/automaton.dir
   OBJECT_FILE_DIR = CMakeFiles/automaton.dir/src
@@ -73,7 +73,7 @@ build CMakeFiles/automaton.dir/src/World.cpp.o: CXX_COMPILER__automaton_unscanne
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/automaton.dir/src/World.cpp.o.d
-  FLAGS = -g -std=c++2b
+  FLAGS = -g -std=c++2b -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src
   OBJECT_DIR = CMakeFiles/automaton.dir
   OBJECT_FILE_DIR = CMakeFiles/automaton.dir/src
@@ -83,7 +83,7 @@ build CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o: CXX_COMPILER__automaton_
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o.d
-  FLAGS = -g -std=c++2b
+  FLAGS = -g -std=c++2b -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src
   OBJECT_DIR = CMakeFiles/automaton.dir
   OBJECT_FILE_DIR = CMakeFiles/automaton.dir/src
@@ -99,7 +99,7 @@ build CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o: CXX_COMPILER__automaton_
 
 build automaton: CXX_EXECUTABLE_LINKER__automaton_Debug CMakeFiles/automaton.dir/main.cpp.o CMakeFiles/automaton.dir/src/Physics.cpp.o CMakeFiles/automaton.dir/src/World.cpp.o CMakeFiles/automaton.dir/src/WorldRenderer.cpp.o | _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a
   CONFIG = Debug
-  FLAGS = -g
+  FLAGS = -g -arch arm64
   LINK_FLAGS = -Wl,-search_paths_first -Wl,-headerpad_max_install_names
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -framework IOKit  -framework Cocoa  -framework OpenGL  -framework QuartzCore  -framework OpenGL  -framework IOKit  -framework Cocoa  -framework CoreFoundation
   OBJECT_DIR = CMakeFiles/automaton.dir
@@ -312,7 +312,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o: C_COMPILER__ra
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -322,7 +322,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o: C_COMPILER__ray
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -332,7 +332,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o: C_COMPILER__r
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -342,7 +342,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o: C_COMPILER__r
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -352,7 +352,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o: C_COMPILER__ray
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -362,7 +362,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: C_COMPILER_
   CONFIG = Debug
   DEFINES = -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -arch arm64
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -377,6 +377,7 @@ build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: C_COMPILER_
 # Link the static library _deps/raylib-build/raylib/libraylib.a
 
 build _deps/raylib-build/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Debug _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o || _deps/raylib-build/raylib/external/glfw/src/glfw
+  ARCH_FLAGS = -arch arm64
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g
   OBJECT_DIR = _deps/raylib-build/raylib/CMakeFiles/raylib.dir
@@ -589,7 +590,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -599,7 +600,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o: 
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -609,7 +610,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o:
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -619,7 +620,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -629,7 +630,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -639,7 +640,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -649,7 +650,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -659,7 +660,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_contex
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -669,7 +670,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_con
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -679,7 +680,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -689,7 +690,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monit
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -699,7 +700,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_windo
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -709,7 +710,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joyst
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -719,7 +720,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_time
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -729,7 +730,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_modu
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -739,7 +740,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thre
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -749,7 +750,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_init
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -759,7 +760,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_joys
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -769,7 +770,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_moni
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -779,7 +780,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_wind
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
@@ -789,7 +790,7 @@ build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/nsgl_conte
   CONFIG = Debug
   DEFINES = -D_GLFW_COCOA
   DEP_FILE = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -arch arm64 -fPIC -Wall
   INCLUDES = -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/include -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-src/src/external/glfw/src -I/Users/cookie/Desktop/PROJECTS/automaton/build/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
