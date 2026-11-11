@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -175,10 +175,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -271,10 +271,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang"
 		},
 		{

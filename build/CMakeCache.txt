@@ -34,10 +34,8 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 // MinSizeRel; custom build types may also be defined.
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -54,10 +52,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
+//C compiler
+CMAKE_C_COMPILER:STRING=/usr/bin/clang
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -470,7 +466,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=4
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/opt/homebrew/bin/cmake
 //Path to cpack program executable.
