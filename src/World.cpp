@@ -7,8 +7,7 @@ int World::getNumRows() const {
   return rows_;
 }
 int World::getNumCols() const {
-  return cols_;
-  
+  return cols_; 
 }
 int World::getCellSize() const {
   return cell_size_;
@@ -16,7 +15,6 @@ int World::getCellSize() const {
 void World::setParticle(int row, int col, Particle particle) {
   particles_[row * cols_ + col] = particle;
 }
-
 std::vector<Particle>& World::getParticles() {
   return particles_;
 }

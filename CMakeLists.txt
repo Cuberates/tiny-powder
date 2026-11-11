@@ -23,7 +23,6 @@ endif()
 
 # Our Project
 add_executable(${PROJECT_NAME} main.cpp
-  src/Physics.cpp
   src/World.cpp
   src/WorldRenderer.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)

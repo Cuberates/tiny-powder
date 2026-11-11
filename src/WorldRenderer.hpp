@@ -19,12 +19,15 @@ inline std::map<Particle, Color> particleColors = {
 
 class WorldRenderer {
   private: 
-  int render_width_, render_height_; 
+  int startx_, starty_; 
+  int render_width_, render_height_, scale_width_, scale_height_; 
   std::shared_ptr<World> world;
   public:
-  WorldRenderer(std::shared_ptr<World> world);
+  WorldRenderer(int renderWidth, int renderHeight, std::shared_ptr<World> world);
   int getRenderWidth() const;
   int getRenderHeight() const;  
+  int getScaleWidth() const; 
+  int getScaleHeight() const; 
   void render() const; 
 }; 
 #endif

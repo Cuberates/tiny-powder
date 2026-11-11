@@ -139,3 +139,14 @@ events:
         - "/Library/TeX/texbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Darwin - 25.3.0 - arm64
+...

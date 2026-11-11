@@ -20,7 +20,7 @@ class World {
     particles_(rows * cols, Particle::AIR)
     {}
   int getCellSize() const; 
-  int getNumRows () const; 
+  int getNumRows () const;
   int getNumCols () const; 
   Particles& getParticles(); 
   void setParticle(int row, int col, Particle particle); 
@@ -28,5 +28,4 @@ class World {
 };
 
 using WorldPtr = std::shared_ptr<World>;
-
 #endif
